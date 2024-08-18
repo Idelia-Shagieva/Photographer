@@ -1,6 +1,11 @@
 html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    background-color: #E1DDD5; 
+    width: 100%;
+    background-color: #E1DDD5;
+    color: rgb(47, 46, 41); 
+    box-sizing: border-box;
 }
 
 .container {

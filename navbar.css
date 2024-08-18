@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(47, 46, 41);
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 10px 0;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #E1DDD5;
+}
+
+.container-main{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+}
+
+.container-main .instagram-tag{
+    padding-top: 5px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.selected {
+    background-color: #E1DDD5;
+    color: rgb(47, 46, 41);
+    padding: 5px 10px;
+    font-size: 1.1em;
+    height: 100%;
+    border-radius: 5px;
+    align-items: center; /* Центрует текст по вертикали */
+}
